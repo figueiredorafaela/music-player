@@ -125,3 +125,12 @@ body {
 .container .controls i:hover {
     color: #fff;
 }
+
+@keyframes rotate {
+    0% {
+        transform: rotatez(0deg);
+    }
+    100% {
+        transform: rotatez(3600deg);
+    }
+}
